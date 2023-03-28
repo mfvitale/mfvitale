@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on [Debezium](https://github.com/debezium/debezium)
 
-- 🌱 I’m currently learning **Go**
+- 🌱 I’m currently learning **Go**, **Kafka Connect**, **Change Data Capture**
 
 - 📝 I regularly write articles on [https://www.mfvitale.me/](https://www.mfvitale.me/)
 
