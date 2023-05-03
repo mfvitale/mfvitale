@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Go**, **Kafka Connect**, **Change Data Capture**
 
-- 📝 I regularly write articles on [https://www.mfvitale.me/](https://www.mfvitale.me/)
+- 📝 I sometimes write articles on [https://www.mfvitale.me/](https://www.mfvitale.me/)
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
