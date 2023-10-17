@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mfvitale&label=Profile%20views&color=0e75b6&style=flat" alt="mfvitale" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mfvitale&no-bg=true" alt="mfvitale" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mfvitale&theme=onedark" alt="mfvitale" /></a> </p>
 
 - 🔭 I’m currently working on [Debezium](https://github.com/debezium/debezium)
 
