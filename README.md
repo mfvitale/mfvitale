@@ -11,6 +11,8 @@
 
 - 📝 I sometimes write articles on [https://www.mfvitale.me/](https://www.mfvitale.me/)
 
+- I created [Commit Art](https://bit.ly/3SGjydg)
+
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 - [Streamlining Your GitHub Actions Workflow with Act](https://www.mfvitale.me/blog/2023/05/03/streamlining-gh-workflow-with-act.html)
