@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mfvitale&label=Profile%20views&color=0e75b6&style=flat" alt="mfvitale" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mfvitale&theme=onedark" alt="mfvitale" /></a> </p>
-
 - 🔭 I’m currently working on [Debezium](https://github.com/debezium/debezium)
 
 - 🌱 I’m currently learning **Go**, **Kafka Connect**, **Change Data Capture**
@@ -24,7 +22,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.mfvitale.me/feed.xml" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://www.mfvitale.me/feed.xml" height="30" width="40" /></a>
+<a href="https://www.mfvitale.me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://www.mfvitale.me" height="30" width="40" /></a>
 </p>
 
 <h2 align="left">Languages and Tools:</h2>
@@ -39,5 +37,7 @@
  <img src="https://github-readme-stats.vercel.app/api?username=mfvitale&show_icons=true&locale=en&theme=onedark" alt="mfvitale" />
 
  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mfvitale&theme=onedark" alt="mfvitale" />
+
+ <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mfvitale&theme=onedark" alt="mfvitale" /></a>
 </p>
 
