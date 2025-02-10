@@ -13,11 +13,11 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [K8s image volume support](https://www.mfvitale.me/blog/2025/02/10/k8s-image-volume-support.html)
 - [Streamlining Your GitHub Actions Workflow with Act](https://www.mfvitale.me/blog/2023/05/03/streamlining-gh-workflow-with-act.html)
 - [Security context and concurrency](https://www.mfvitale.me/blog/2021/02/24/security.context.and.concurrency.html)
 - [Are you testing your tests?](https://www.mfvitale.me/blog/2020/10/06/mutations.tests.html)
 - [Personal site for free with Github pages and Jekyll](https://www.mfvitale.me/blog/2020/09/27/github-pages-and-jekyll.html)
-- [How to pass CKAD exam](https://www.mfvitale.me/blog/2020/09/14/how-to-pass-ckad-exam.html)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
