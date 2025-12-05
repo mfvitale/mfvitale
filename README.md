@@ -23,11 +23,14 @@
 
 <!-- DEBEZIUM-POSTS:START -->
 #### Latest from Debezium blog by me
-
 - 2025-10-06 [Adding a new table with Debezium: Best Practices and Pitfalls](https://debezium.io/blog/2025/10/06/add-new-table-to-capture-list/) — Fiore Mario Vitale
 <!-- DEBEZIUM-POSTS:END -->
-- 2025-10-06 [Data pipeline troubleshooting: Root cause analysis through lineage metadata](https://debezium.io/blog/2025/07/21/openlineage-debezium-flink/) — Fiore Mario Vitale
-
+- 2025-07-21 [Data pipeline troubleshooting: Root cause analysis through lineage metadata](https://debezium.io/blog/2025/07/21/openlineage-debezium-flink/) — Fiore Mario Vitale
+- 2025-06-13 [Native data lineage in Debezium with OpenLineage](https://debezium.io/blog/2025/06/13/openlineage-integration/) — Fiore Mario Vitale
+- 2025-04-04 [Debezium Management Platform: Simplifying Change Data Capture](http://debezium.io/blog/2025/04/04/debezium-platform/) — Fiore Mario Vitale
+- 2024-10-14 [Detect data mutation patterns with Debezium](https://debezium.io/blog/2024/10/14/Detect-data-mutation-patterns-with-Debezium/) — Fiore Mario Vitale
+- 2023-12-20 [Streamlined Performance: Debezium JDBC connector batch support](https://debezium.io/blog/2023/12/20/JDBC-sink-connector-batch-support/) — Fiore Mario Vitale
+  
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.mfvitale.me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://www.mfvitale.me" height="30" width="40" /></a>
