@@ -41,3 +41,9 @@
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mfvitale&theme=onedark" alt="mfvitale" /></a>
 </p>
 
+<!-- DEBEZIUM-POSTS:START -->
+## Debezium posts by specified author(s) (filters: Fiore Mario Vitale)
+
+_No matching Debezium posts found._
+<!-- DEBEZIUM-POSTS:END -->
+
