@@ -31,12 +31,18 @@ def fetch_feed(feed_url: str, timeout: int = 15) -> feedparser.FeedParserDict:
     resp.raise_for_status()
     return feedparser.parse(resp.text)
 
+def get_entry_attr(entry, key, default=None):
+    """Safely get an attribute from a feedparser entry (dict-like)."""
+    if hasattr(entry, "get"):
+        return entry.get(key, default)
+    return getattr(entry, key, default)
+
 def entry_author_names(entry) -> List[str]:
     names = []
-    author = entry.get("author") if hasattr(entry, "get") else getattr(entry, "author", None)
+    author = get_entry_attr(entry, "author")
     if author:
         names.append(author)
-    authors = entry.get("authors") if hasattr(entry, "get") else getattr(entry, "authors", [])
+    authors = get_entry_attr(entry, "authors", [])
     if authors:
         for a in authors:
             if isinstance(a, dict):
@@ -60,21 +66,21 @@ def matches_author(entry, filters: List[str]) -> bool:
     return False
 
 def format_entry_md(entry) -> str:
-    title = entry.get("title", "Untitled").strip()
-    link = entry.get("link", "")
+    title = get_entry_attr(entry, "title", "Untitled").strip()
+    link = get_entry_attr(entry, "link", "")
     dt = None
-    published_parsed = entry.get("published_parsed")
+    published_parsed = get_entry_attr(entry, "published_parsed")
     if published_parsed:
         dt = datetime(*published_parsed[:6])
     else:
         for k in ("published", "updated", "updated_parsed"):
-            val = entry.get(k)
+            val = get_entry_attr(entry, k)
             if val:
                 try:
                     if k.endswith("_parsed"):
                         dt = datetime(*val[:6])
                         break
-                except Exception:
+                except (TypeError, ValueError):
                     pass
     date_str = dt.strftime("%Y-%m-%d") if dt else ""
     authors = ", ".join(entry_author_names(entry))
