@@ -143,7 +143,7 @@ def main():
     parser.add_argument("--feed-url", default="https://debezium.io/blog.atom", help="Atom feed URL")
     parser.add_argument("--authors", default="Fiore Mario Vitale", help="Comma-separated author name fragments to match (case-insensitive)")
     parser.add_argument("--readme", default="README.md", help="Path to README.md to update")
-    parser.add_argument("--header", default="### Latest blog posts on Debezium blog by me", help="Header to add before the list")
+    parser.add_argument("--header", default="#### Latest from Debezium blog by me", help="Header to add before the list")
     parser.add_argument("--max", type=int, default=20, help="Max items to include")
     args = parser.parse_args()
 

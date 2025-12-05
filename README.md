@@ -11,7 +11,8 @@
 
 - I created [Commit Art](https://bit.ly/3SGjydg)
 
-### Blogs posts
+### Blog posts
+#### Latest from my blog
 <!-- BLOG-POST-LIST:START -->
 - [K8s image volume support](https://www.mfvitale.me/blog/2025/02/10/k8s-image-volume-support.html)
 - [Streamlining Your GitHub Actions Workflow with Act](https://www.mfvitale.me/blog/2023/05/03/streamlining-gh-workflow-with-act.html)
@@ -21,7 +22,7 @@
 <!-- BLOG-POST-LIST:END -->
 
 <!-- DEBEZIUM-POSTS:START -->
-### Latest blog posts on Debezium blog by me
+#### Latest from Debezium blog by me
 
 _No matching Debezium posts found._
 <!-- DEBEZIUM-POSTS:END -->
