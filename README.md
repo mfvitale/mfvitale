@@ -20,6 +20,12 @@
 - [Personal site for free with Github pages and Jekyll](https://www.mfvitale.me/blog/2020/09/27/github-pages-and-jekyll.html)
 <!-- BLOG-POST-LIST:END -->
 
+<!-- DEBEZIUM-POSTS:START -->
+### Latest blog posts on Debezium blog by me
+
+_No matching Debezium posts found._
+<!-- DEBEZIUM-POSTS:END -->
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.mfvitale.me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://www.mfvitale.me" height="30" width="40" /></a>
@@ -41,9 +47,4 @@
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mfvitale&theme=onedark" alt="mfvitale" /></a>
 </p>
 
-<!-- DEBEZIUM-POSTS:START -->
-## Debezium posts by specified author(s) (filters: Fiore Mario Vitale)
-
-_No matching Debezium posts found._
-<!-- DEBEZIUM-POSTS:END -->
 

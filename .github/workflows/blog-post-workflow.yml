@@ -27,7 +27,8 @@ jobs:
           python scripts/fetch_debezium.py \
             --feed-url "https://debezium.io/blog.atom" \
             --authors "Fiore Mario Vitale" \
-            --readme README.md
+            --readme README.md \
+            --header "### Latest blog posts on Debezium blog by me"
 
       - name: Commit files
         uses: EndBug/add-and-commit@v9

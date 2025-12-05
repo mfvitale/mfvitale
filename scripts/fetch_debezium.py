@@ -143,7 +143,7 @@ def main():
     parser.add_argument("--feed-url", default="https://debezium.io/blog.atom", help="Atom feed URL")
     parser.add_argument("--authors", default="Fiore Mario Vitale", help="Comma-separated author name fragments to match (case-insensitive)")
     parser.add_argument("--readme", default="README.md", help="Path to README.md to update")
-    parser.add_argument("--header", default="## Debezium posts by specified author(s)", help="Header to add before the list")
+    parser.add_argument("--header", default="### Latest blog posts on Debezium blog by me", help="Header to add before the list")
     parser.add_argument("--max", type=int, default=20, help="Max items to include")
     args = parser.parse_args()
 
@@ -161,7 +161,7 @@ def main():
     matched.sort(key=entry_date_key, reverse=True)
     matched = matched[: args.max]
 
-    md = generate_markdown(matched, header=args.header + f" (filters: {', '.join(filters)})")
+    md = generate_markdown(matched, header=args.header)
     print(f"Found {len(matched)} matching entries; updating {args.readme}")
     replace_block_in_file(args.readme, START_MARKER, END_MARKER, md)
     print("Done.")
