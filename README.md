@@ -11,7 +11,8 @@
 
 - I created [Commit Art](https://bit.ly/3SGjydg)
 
-### Blogs posts
+### Blog posts
+#### Latest from my blog
 <!-- BLOG-POST-LIST:START -->
 - [K8s image volume support](https://www.mfvitale.me/blog/2025/02/10/k8s-image-volume-support.html)
 - [Streamlining Your GitHub Actions Workflow with Act](https://www.mfvitale.me/blog/2023/05/03/streamlining-gh-workflow-with-act.html)
@@ -19,6 +20,12 @@
 - [Are you testing your tests?](https://www.mfvitale.me/blog/2020/10/06/mutations.tests.html)
 - [Personal site for free with Github pages and Jekyll](https://www.mfvitale.me/blog/2020/09/27/github-pages-and-jekyll.html)
 <!-- BLOG-POST-LIST:END -->
+
+<!-- DEBEZIUM-POSTS:START -->
+#### Latest from Debezium blog by me
+
+_No matching Debezium posts found._
+<!-- DEBEZIUM-POSTS:END -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -40,4 +47,5 @@
 
  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mfvitale&theme=onedark" alt="mfvitale" /></a>
 </p>
+
 
