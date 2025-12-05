@@ -37,6 +37,29 @@ def get_entry_attr(entry, key, default=None):
         return entry.get(key, default)
     return getattr(entry, key, default)
 
+def parse_datetime_tuple(parsed_tuple) -> Optional[datetime]:
+    """Safely parse a time tuple (from feedparser) into a datetime object."""
+    if not parsed_tuple or not isinstance(parsed_tuple, (tuple, list)):
+        return None
+    if len(parsed_tuple) < 6:
+        return None
+    try:
+        return datetime(*parsed_tuple[:6])
+    except (TypeError, ValueError):
+        return None
+
+def entry_date_key(entry) -> datetime:
+    """Extract the publication or update date from an entry for sorting."""
+    published_parsed = get_entry_attr(entry, "published_parsed")
+    dt = parse_datetime_tuple(published_parsed)
+    if dt:
+        return dt
+    updated_parsed = get_entry_attr(entry, "updated_parsed")
+    dt = parse_datetime_tuple(updated_parsed)
+    if dt:
+        return dt
+    return datetime.min
+
 def entry_author_names(entry) -> List[str]:
     names = []
     author = get_entry_attr(entry, "author")
@@ -70,18 +93,13 @@ def format_entry_md(entry) -> str:
     link = get_entry_attr(entry, "link", "")
     dt = None
     published_parsed = get_entry_attr(entry, "published_parsed")
-    if published_parsed:
-        dt = datetime(*published_parsed[:6])
-    else:
-        for k in ("published", "updated", "updated_parsed"):
+    dt = parse_datetime_tuple(published_parsed)
+    if not dt:
+        for k in ("updated_parsed",):
             val = get_entry_attr(entry, k)
-            if val:
-                try:
-                    if k.endswith("_parsed"):
-                        dt = datetime(*val[:6])
-                        break
-                except (TypeError, ValueError):
-                    pass
+            dt = parse_datetime_tuple(val)
+            if dt:
+                break
     date_str = dt.strftime("%Y-%m-%d") if dt else ""
     authors = ", ".join(entry_author_names(entry))
     if link:
@@ -140,14 +158,6 @@ def main():
     print(f"Fetched {len(entries)} entries from feed")
 
     matched = [e for e in entries if matches_author(e, filters)]
-    def entry_date_key(e):
-        published_parsed = e.get("published_parsed")
-        if published_parsed:
-            return datetime(*published_parsed[:6])
-        updated_parsed = e.get("updated_parsed")
-        if updated_parsed:
-            return datetime(*updated_parsed[:6])
-        return datetime.min
     matched.sort(key=entry_date_key, reverse=True)
     matched = matched[: args.max]
 
