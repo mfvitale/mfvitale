@@ -24,8 +24,7 @@
 <!-- DEBEZIUM-POSTS:START -->
 #### Latest from Debezium blog by me
 
-- [Adding a new table with Debezium: Best Practices and Pitfalls](https://debezium.io/blog/2025/10/06/add-new-table-to-capture-list/)
-- [Data pipeline troubleshooting: Root cause analysis through lineage metadata](https://debezium.io/blog/2025/07/21/openlineage-debezium-flink/)
+- 2025-10-06 [Adding a new table with Debezium: Best Practices and Pitfalls](https://debezium.io/blog/2025/10/06/add-new-table-to-capture-list/) — Fiore Mario Vitale
 <!-- DEBEZIUM-POSTS:END -->
 
 <h3 align="left">Connect with me:</h3>
