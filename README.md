@@ -14,11 +14,11 @@
 ### Blog posts
 #### Latest from my blog
 <!-- BLOG-POST-LIST:START -->
+- [K8s Image Volumes: One Year On](https://www.mfvitale.me/blog/2026/01/09/k8s-image-volumes-one-year-on.html)
 - [K8s image volume support](https://www.mfvitale.me/blog/2025/02/10/k8s-image-volume-support.html)
 - [Streamlining Your GitHub Actions Workflow with Act](https://www.mfvitale.me/blog/2023/05/03/streamlining-gh-workflow-with-act.html)
 - [Security context and concurrency](https://www.mfvitale.me/blog/2021/02/24/security.context.and.concurrency.html)
 - [Are you testing your tests?](https://www.mfvitale.me/blog/2020/10/06/mutations.tests.html)
-- [Personal site for free with Github pages and Jekyll](https://www.mfvitale.me/blog/2020/09/27/github-pages-and-jekyll.html)
 <!-- BLOG-POST-LIST:END -->
 
 <!-- DEBEZIUM-POSTS:START -->
