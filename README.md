@@ -24,7 +24,7 @@
 <!-- DEBEZIUM-POSTS:START -->
 #### Latest from Debezium blog by me
 
-- 2026-01-07 [LLMs in the Loop: Using AI to Migrate JUnit Tests](https://debezium.io/blog/2026/01/07/llms-in-the-loop-large-junit-migration/) — Fiore Mario Vitale
+_No matching Debezium posts found._
 <!-- DEBEZIUM-POSTS:END -->
 - 2025-07-21 [Data pipeline troubleshooting: Root cause analysis through lineage metadata](https://debezium.io/blog/2025/07/21/openlineage-debezium-flink/) — Fiore Mario Vitale
 - 2025-06-13 [Native data lineage in Debezium with OpenLineage](https://debezium.io/blog/2025/06/13/openlineage-integration/) — Fiore Mario Vitale
