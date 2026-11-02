@@ -25,7 +25,6 @@
 #### Latest from Debezium blog by me
 
 - 2026-07-10 [Debezium Platform: Mid-Year Update (2026)](https://debezium.io/blog/2026/07/10/debezium-platform-status-update/) — Fiore Mario Vitale
-- 2026-07-06 [Building Kafka-Less Data Integration Pipelines with Debezium](https://debezium.io/blog/2026/07/06/kafka-less-migration/) — Fiore Mario Vitale
 <!-- DEBEZIUM-POSTS:END -->
 - 2025-07-21 [Data pipeline troubleshooting: Root cause analysis through lineage metadata](https://debezium.io/blog/2025/07/21/openlineage-debezium-flink/) — Fiore Mario Vitale
 - 2025-06-13 [Native data lineage in Debezium with OpenLineage](https://debezium.io/blog/2025/06/13/openlineage-integration/) — Fiore Mario Vitale
